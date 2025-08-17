@@ -12,7 +12,7 @@
         "paths": {
             "~/client/*": ["./app/*"],
             "~/server/*": ["./app/.server/*"],
-            "+types/*": ["./.react-router/types/app/routes/+types/*"]
+            "+appTypes/*": ["./.react-router/types/app/*"]
         },
         "esModuleInterop": true,
         "verbatimModuleSyntax": true,

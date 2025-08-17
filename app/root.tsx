@@ -7,7 +7,7 @@ import { isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration }
 
 import { themeSessionResolver } from '~/server/session';
 
-import type { Route } from './+types/root';
+import type { Route } from '+appTypes/+types/root';
 
 export async function loader({ request }: LoaderFunctionArgs) {
     const { getTheme } = await themeSessionResolver(request);
